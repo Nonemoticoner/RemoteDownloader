@@ -1,0 +1,16 @@
+{
+  "name": "remote-downloader",
+  "version": "0.0.1",
+  "description": "An application to download files from external servers.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nonemoticoner",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "body-parser": "1.13.3",
+    "path": "0.11.14"
+  }
+}
