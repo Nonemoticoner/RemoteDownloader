@@ -1,0 +1,23 @@
+{
+  "name": "remotedownloader",
+  "version": "0.0.1",
+  "description": "Server for desktop application of RemoteDownloader.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nonemoticoner/RemoteDownloader.git"
+  },
+  "author": "Nonemoticoner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nonemoticoner/RemoteDownloader/issues"
+  },
+  "homepage": "https://github.com/nonemoticoner/RemoteDownloader#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.3.6"
+  }
+}

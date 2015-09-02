@@ -49,8 +49,6 @@ app.get('/download', function (req, res) {
 	var file_url = req.query.url,
 		key = (req.query.key == undefined || req.query.key == '') ? undefined : req.query.key;
 
-	console.log(key);
-
 	if(SECRET_KEY == key){
 		download_file_httpget(file_url);
 		

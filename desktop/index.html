@@ -5,8 +5,18 @@
 	<title>Remote Downloader</title>
 </head>
 <body>
-	<h1>Remote Downloader</h1>
-	We are using io.js <script>document.write(process.version)</script>
-	and Electron <script>document.write(process.versions['electron'])</script>.
+	<h3>Downloads:</h3>
+
+	<table>
+		<tr>
+			<td class="file-name">Some_logo.png</td>
+			<td class="file-url" title="http://asd-ent.pl/logo.png"><a href="http://asd-ent.pl/logo.png">Link</a></td>
+			<td class="progress">Downloading</td>
+		</tr>
+	</table>
+	
+	<script src="/libs/socket.io-1.2.0.js"></script>
+	<script src="/libs/jquery-1.11.3.min.js"></script>
+
 </body>
 </html>
